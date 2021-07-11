@@ -7,7 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="session_20210626" />
+        <module name="session_20210710" />
+        <module name="session_20210708_streams_learning" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="session_20210706_tdd" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="session_20210710" options="-parameters" />
+    </option>
   </component>
 </project>

@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PragraSuite">
+    <test name="SuiteTests">
+        <groups>
+            <define name="smoke"/>
+            <define name="performance"/>
+            <define name="regression"/>
+            <define name="sanity"/>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="io.pragra.learnign.tdd"/>
+        </packages>
+    </test>
+</suite>
