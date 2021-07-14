@@ -12,6 +12,7 @@
         <module>session_20210626</module>
         <module>session_20210706</module>
         <module>session_20210708_streams_learning</module>
+        <module>session_20210713_Selenium</module>
     </modules>
 
     <properties>
